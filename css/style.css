@@ -135,7 +135,10 @@ footer{
 .gallery{
   min-height: 600px;
   /*Your code here again.*/
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
 }
 
 .gallery > img{
@@ -178,6 +181,8 @@ header{
   /* Cards! */
   .card {
     /*Your  code here again.*/
+    flex-basis: 225px;
+
   }
 
   .card_big{
@@ -211,3 +216,13 @@ header{
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
+@media (prefers-reduced-motion: reduce) {
+  
+  #logo{
+    width: 25px;
+    position: relative;
+    animation: logo_wiggle 15s;
+  
+  }
+  
+}
