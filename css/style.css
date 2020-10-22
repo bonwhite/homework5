@@ -64,10 +64,10 @@ footer{
   to {width: 420px;}
 } 
 
-#logo animation-name: logo_wiggle{
-  width: 25px;
-  position: relative;
-  animation-duration: logo_wiggle 15s;-webkit-animation-name: logo_wiggle;
+#logo {
+  animation-name: logo_wiggle;
+  animation-duration: 15s;
+  -webkit-animation-name: logo_wiggle;
 
 }
 
